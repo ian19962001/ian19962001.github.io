@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Fairness-Constrained Logistic Regression | Ian Thomas Mathew</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+  <header class="project-hero">
+
+    <a class="back-link" href="../index.html">← Back to Portfolio</a>
+
+    <p class="eyebrow">
+      OPTIMIZATION • RESPONSIBLE AI • MACHINE LEARNING
+    </p>
+
+    <h1>
+      Fairness-Constrained Logistic Regression
+    </h1>
+
+    <h2>
+      Automated Resume Screening using Convex Optimization
+    </h2>
+
+    <p class="hero-text">
+      A convex optimization project that reformulates automated resume screening
+      as a fairness-aware logistic regression problem using equal opportunity
+      constraints and Lagrangian relaxation.
+    </p>
+
+    <div class="buttons">
+      <a href="../assets/fairness_logistic_regression_report_final.pdf" target="_blank">
+        View Report
+      </a>
+
+      <a href="../assets/Optimization_presentation.pdf" target="_blank">
+        View Slides
+      </a>
+    </div>
+
+  </header>
+
+  <section>
+
+    <h2>Project Overview</h2>
+
+    <p class="page-text">
+      This project explored how automated resume screening systems can inherit
+      and amplify historical hiring bias. We modelled resume screening as a
+      binary classification problem using logistic regression and introduced a
+      fairness-aware objective to reduce group-based disparity.
+    </p>
+
+  </section>
+
+    <section>
+
+    <h2>Key Contributions</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Convex Optimization Analysis</h3>
+
+        <p>
+          Proved that the baseline regularized logistic regression
+          objective is strictly convex using Hessian analysis and
+          L2 regularization.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Fairness Constraint Design</h3>
+
+        <p>
+          Formulated equal opportunity fairness using group-wise
+          True Positive Rate parity across demographic groups.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Lagrangian Relaxation</h3>
+
+        <p>
+          Replaced the hard non-convex fairness constraint with
+          a smooth squared penalty optimized using L-BFGS-B.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Fairness-Accuracy Trade-Off</h3>
+
+        <p>
+          Reduced the TPR gap from 0.257 to 0.032 while limiting
+          the reduction in model accuracy.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Responsible AI Evaluation</h3>
+
+        <p>
+          Analysed how fairness-aware optimization changes model
+          behaviour and reduces reliance on biased features.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <h2>Skills Used</h2>
+
+    <p class="skills">
+      Python · Logistic Regression · Convex Optimization · L-BFGS-B ·
+      Responsible AI · Fairness Metrics · Scikit-learn · SciPy · NumPy
+    </p>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Ian Thomas Mathew</p>
+  </footer>
+
+</body>
+
+</html>

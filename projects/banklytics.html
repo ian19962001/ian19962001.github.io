@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banklytics | Ian Thomas Mathew</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <header class="project-hero">
+    <a class="back-link" href="../index.html">← Back to Portfolio</a>
+
+    <p class="eyebrow">LSTM • Finance • Time Series</p>
+    <h1>Banklytics</h1>
+    <h2>Singapore Banking Stock Forecasting</h2>
+
+    <p class="hero-text">
+      A financial analytics project predicting DBS, OCBC, and UOB stock movement
+      using LSTM models, technical indicators, sentiment analysis, and walk-forward
+      validation.
+    </p>
+
+    <div class="buttons">
+      <a href="../assets/banklytics-slides.pdf" target="_blank">View Slides</a>
+      <a href="../assets/banklytics-report.pdf" target="_blank">View Report</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Project Overview</h2>
+    <p class="page-text">
+      Banklytics explored whether deep learning models could predict short-term
+      movements in Singapore banking stocks using technical and sentiment-based
+      financial indicators.
+    </p>
+  </section>
+
+  <section>
+
+    <h2>Key Contributions</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Financial Data Collection</h3>
+
+        <p>
+          Collected OHLCV stock market data for DBS, OCBC,
+          and UOB using yFinance APIs.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Sentiment Analysis</h3>
+
+        <p>
+          Integrated sentiment signals using GDELT news data
+          and VADER sentiment analysis.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Deep Learning Forecasting</h3>
+
+        <p>
+          Built stacked LSTM models for next-day log-return
+          prediction on banking stocks.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Time-Series Validation</h3>
+
+        <p>
+          Applied walk-forward expanding-window validation
+          for realistic sequential forecasting evaluation.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Feature Engineering</h3>
+
+        <p>
+          Used LASSO and regression-based feature selection
+          to identify significant predictive indicators.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Skills Used</h2>
+    <p class="skills">
+      Python · TensorFlow · Keras · LSTM · Time Series Forecasting ·
+      Sentiment Analysis · Financial Analytics · Power BI
+    </p>
+  </section>
+</body>
+</html>
