@@ -35,7 +35,9 @@ body {
 
   justify-content: space-between;
 
-  gap: 45px;
+  gap: 70px;
+
+  width: 100%;
 
 }
 
@@ -48,12 +50,7 @@ body {
   margin-bottom: 18px;
 }
 
-.name-row {
-  display: flex;
-  align-items: center;
-  gap: 23px;
-  margin-bottom: 14px;
-}
+
 
 .hero h1 {
   font-size: 5.3rem;
@@ -65,9 +62,9 @@ body {
 
 .profile-image {
 
-  width: 220px;
+  width: 200px;
 
-  height: 220px;
+  height: 200px;
 
   border-radius: 50%;
 
@@ -101,13 +98,15 @@ body {
 
   flex: 1;
 
+  max-width: 1000px;
+
 }
+
+
 
 .hero-right {
 
   flex-shrink: 0;
-
-  transform: translateX(-30px);
 
 }
 
@@ -300,14 +299,22 @@ footer {
   }
 
   .profile-image {
-    width: 58px;
-    height: 58px;
-  }
 
-  .name-row {
-    gap: 10px;
-    align-items: flex-start;
-  }
+  width: 120px;
+
+  height: 120px;
+
+}
+
+  .hero-container {
+
+  flex-direction: column-reverse;
+
+  align-items: flex-start;
+
+  gap: 28px;
+
+}
 
   .hero h2 {
     font-size: 1.45rem;
